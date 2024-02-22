@@ -1,0 +1,46 @@
+Date went through Git Lab Tutorials: 2/22/2024
+Date GitHub Account Created: 1/10/2023
+
+1.
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 758 bytes | 758.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/tatianacue/assignment2.git
+   f4975e5..2cb1d81  master -> master
+
+2. 8 commits were done in total to the repository. I used git shortlog to get this information.
+
+3. The README file was last modified on the date Thu Feb 22 13:56:20 2024 -0500. To get this information
+I did git log README.md
+
+4. Two reasons branches are using in Git repositories are to add new features without affecting the main branch,
+and to fix a bug without affecting the main branch.
+
+5. Git log shows the committed history while git status gives you the info about the files in
+your working directory at the current state.
+
+6. I used git log --follow Vehicle.h to see commits with "Vehicle.h"
+
+7. I used git log --grep="file" to see commit messages containing "file"
+
+8. 
+(I) In OOP, inheritance is when a child/subclass inherits attributes and methods from the parent class.
+(II) In OOP, polymorphism allows methods to do different things depending on the object it's on.
+(III) In OOP, encapsulation is wrapping the data and methods in one unit, which limits direct access to some of that data.
+
+9. The main difference between the two workflows is that the dictator and lietenants workflow has two levels of conflict management 
+with the dictator and lieutenant repositories, while the integration workflow conflict is handled by just the integration manager.
+
+10. A team of 100 developers would benefit more from a dictator and lieutenant workflow over a centralized one because then developers
+don't have to rely solely on managing the conflicts themselves. Since there are probably a lot of conflicts because its a large team, more
+oversight is provided with the two levels of management. A lieutenant can oversee and make sure conflicts are resolved, and the
+dictator can also manage another layer of conflicts.
+
+
+
+
